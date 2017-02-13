@@ -1,0 +1,27 @@
+{
+  "name": "create-async-action",
+  "version": "1.0.0",
+  "description": "wrapper for redux-actions createAction function for better work with redux-promise-middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamolegga/create-async-action.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-actions",
+    "redux-promise-middleware"
+  ],
+  "author": "https://github.com/iamolegga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamolegga/create-async-action/issues"
+  },
+  "homepage": "https://github.com/iamolegga/create-async-action#readme",
+  "peerDependencies": {
+    "redux-actions": "1.x"
+  }
+}
