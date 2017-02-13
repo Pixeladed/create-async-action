@@ -32,3 +32,5 @@ const reducer = handleActions({
 ```
 
 Yes, here I use custom suffixes for redux-promise-middleware.
+
+Thanks for inspiring, @matpaul
