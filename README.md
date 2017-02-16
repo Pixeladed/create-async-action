@@ -3,7 +3,7 @@ wrapper for redux-actions createAction function for better work with redux-promi
 
 When using [redux-actions](https://github.com/acdlite/redux-actions/) and [redux-promise-middleware](https://github.com/pburtchaell/redux-promise-middleware/) together its annoying to do something like this:
 
-```
+```js
 const myAction = createAction('MY_ACTION', async () => {
   ...
 });
@@ -17,7 +17,7 @@ const reducer = handleActions({
 
 Instead of this you can do something like this:
 
-```
+```js
 import createAsyncAction from 'create-async-action';
 
 const myAction = createAsyncAction('MY_ACTION', async () => {
@@ -32,3 +32,5 @@ const reducer = handleActions({
 ```
 
 Yes, here I use custom suffixes for redux-promise-middleware.
+
+Thanks for inspiring, [matpaul](https://github.com/matpaul)
